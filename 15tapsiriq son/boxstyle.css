@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: white;
+}
+.boxout {
+    float: right;
+    height: 300px;
+    width: 350px;
+    background-color: white;
+    margin: 100px auto; 
+    border-radius: 3%;
+    padding: 25px 0;
+    box-shadow: 1px 1px 10px black;
+} 
+.boxout .input input{
+    display: block;
+    height: 0px;
+    margin: 15px auto;
+    display: flex; 
+    border: 1px solid;
+    padding: 15px 20px 10px 4px ;
+    text-align: left; 
+}
+.boxout .login button {
+    width: 150px; 
+    height: 30px;
+    text-align: center; 
+    background-color: blue;
+    color: aliceblue;
+    text-decoration-style: inherit;
+}
+.boxout .login {
+    text-align: center;
+    margin: 40px;
+    height: 0, auto; 
+}
+.boxout .forget {
+    margin: -30px 110px; 
+
+} 
+.boxout .create button {
+    margin: 55px 75px; 
+    background-color: green;
+    border-radius: 5%;
+    border: 1px;
+    width: 200px;
+    height: 40px;
+    color: white; 
+}
+.fb {
+    color: blue;
+    text-align: center;
+    margin: 40px;
+    font-size: 20px;
+    float: left;
+}
+.fb
